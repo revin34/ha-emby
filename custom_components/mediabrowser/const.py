@@ -2,7 +2,7 @@
 
 from typing import Any
 
-from homeassistant.backports.enum import StrEnum
+from enum import StrEnum
 from homeassistant.components.media_player import MediaClass, MediaType
 
 DOMAIN = "mediabrowser"
